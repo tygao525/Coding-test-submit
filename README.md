@@ -1,1 +1,8 @@
-# Coding-test-submit
+# Coding test submit
+This code was developed in Jupyter Notebook using Anaconda, designed to fit the EOS equation to obtain parameters a, b, c, and d, and calculate the equilibrium volume where energy is minimized.
+# For Task 1
+The code first imports experimental data in Jupyter Notebook using pandas and numpy, then explicitly defines the state equation function. Subsequently, parameter fitting is performed using scipy.optimize, ultimately determining the crystal's equilibrium volume through the energy minimization principle.
+My first challenge was that I didn't know how to use scipy.optimize for parameter fitting initially, so I searched for methods and operational steps used by others on Bilibili to learn and apply them in my test. Due to lacking experience in setting initial values, I tested different p0 (1, 5, 10) and found that all cases converged to similar results.
+The objective of the second step is to determine the equilibrium volume based on the second law of thermodynamics, which states that materials reach equilibrium at the minimum energy state. Therefore, the fitted equation is used to locate the energy minimum, and the equilibrium volume V0 is calculated at this point. The fitting parameters used were the a, b,c, and d values obtained from the p0=10 parameter set.
+# For Task 2
+Task 2 involves plotting based on the fitted equation obtained from Task 1, where I marked the equilibrium volume point V0 identified through the energy minimization principle in the graph.
