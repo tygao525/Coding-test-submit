@@ -1,4 +1,9 @@
 # Coding test submit
+I uploaded it but the preview won't show, and there are a lot of extra things in the coding section that shouldn't be there, so please look at this two links.
+Modify version
+file:///Users/gaotianyi/Downloads/Modify%20the%20precisionCT-gty.html
+Original version
+file:///Users/gaotianyi/Downloads/CT-gty.html
 This code was developed in Jupyter Notebook using Anaconda, designed to fit the EOS equation to obtain parameters a, b, c, and d, and calculate the equilibrium volume where energy is minimized.
 # For Task 1
 The code first imports experimental data in Jupyter Notebook using pandas and numpy, then explicitly defines the state equation function. Subsequently, parameter fitting is performed using scipy.optimize, ultimately determining the crystal's equilibrium volume through the energy minimization principle.
